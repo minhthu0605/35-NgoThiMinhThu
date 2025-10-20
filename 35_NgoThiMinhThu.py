@@ -24,7 +24,9 @@ def print_student_list():
 
 
 def search_student(search_name):
+
     # YÊU CẦU 3
+
     print("--- KET QUA TIM KIEM ---")
     found = False
     for student in student_list:
@@ -33,6 +35,8 @@ def search_student(search_name):
             found = True
     if not found:
         print("Khong tim thay sinh vien nao.")
+
+
 
 # --- Phần thực thi chính để kiểm tra ---
 # Sinh viên không cần chỉnh sửa phần này.
